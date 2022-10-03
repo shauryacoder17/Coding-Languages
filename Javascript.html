@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <link rel="stylesheet" href="javascript.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>About Javascript</title>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img src="newlogo1.png" class="logo">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Other webpages.html">Other Webpages</a></li>
+            <li><a href="sources.html">Softwares</a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="hdng">Javascript <img src="js-logo.jpeg" id="jslogo"></div>
+    <br><br><br>
+    <div class="newhdng-js">Introduction:</div>
+    <br><br>
+    <div class="cntnt-js">JavaScript, often abbreviated to JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. 
+      As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated 
+      JavaScript engine to execute the code on users' devices.</div>
+    <br><br><br>  
+    <div class="newhdng-js">Libraries and Framework:</div>
+    <br><br>
+    <div class="cntnt-js">Over 80% of websites use a third-party JavaScript library or web framework for their client-side scripting. 'jQuery' is by far the most popular library, 
+      used by over 75% of websites. Facebook created the React library for its website and later released it as open source; other sites, including Twitter, now use it. 
+      Likewise, the Angular framework created by Google for its websites, including YouTube and Gmail, is now an open source project used by others. In contrast, the term 
+      "Vanilla JS" has been coined for websites not using any libraries or frameworks, instead relying entirely on standard JavaScript functionality.</div>
+    <br><br><br>
+    <div class="newhdng-js">Weakly typed:</div>
+    <br><br>
+    <div class="cntnt-js">JavaScript is weakly typed, which means certain types are implicitly cast depending on the operation used.
+      <ul>
+        <li>The binary '+' operator casts both operands to a string unless both operands are numbers.</li>
+        <li>The binary '-' operator always casts both operands to a number.</li>
+        <li>Both unary operators (+, -) always cast the operand to a number.</li>
+      </ul>
+      Values are cast to strings like the following:
+      <ul>
+        <li>Strings are left as-is</li>
+        <li>Numbers are converted to their string representation</li>
+        <li>Arrays have their elements cast to strings after which they are joined by commas (,)</li>
+        <li>Other objects are converted to the string [object Object] where Object is the name of the constructor of the object.</li>
+      </ul>
+      Values are cast to numbers by casting to strings and then casting the strings to numbers. These processes can be modified by defining toString and valueOf functions on 
+      the prototype for string and number casting respectively. JavaScript has received criticism for the way it implements these conversions as the complexity of the rules 
+      can be mistaken for inconsistency. For example, when adding a number to a string, the number will be cast to a string before performing concatenation, but when 
+      subtracting a number from a string, the string is cast to a number before performing subtraction.
+      <br><br>
+      <table border="2">
+        <caption>JavaScript type conversions
+        </caption>
+        <tbody><tr>
+        <th>left operand
+        </th>
+        <th>operator
+        </th>
+        <th>right operand
+        </th>
+        <th>result
+        </th></tr>
+        <tr>
+        <td><code>[]</code> (empty array)
+        </td>
+        <td><code>+</code>
+        </td>
+        <td><code>[]</code> (empty array)
+        </td>
+        <td><code>""</code> (empty string)
+        </td></tr>
+        <tr>
+        <td><code>[]</code> (empty array)
+        </td>
+        <td><code>+</code>
+        </td>
+        <td><code>{}</code> (empty object)
+        </td>
+        <td><code>"[object Object]"</code> (string)
+        </td></tr>
+        <tr>
+        <td><code>false</code> (boolean)
+        </td>
+        <td><code>+</code>
+        </td>
+        <td><code>[]</code> (empty array)
+        </td>
+        <td><code>"false"</code> (string)
+        </td></tr>
+        <tr>
+        <td><code>"123"</code>(string)
+        </td>
+        <td><code>+</code>
+        </td>
+        <td><code>1</code> (number)
+        </td>
+        <td><code>"1231"</code> (string)
+        </td></tr>
+        <tr>
+        <td><code>"123"</code> (string)
+        </td>
+        <td><code>-</code>
+        </td>
+        <td><code>1</code> (number)
+        </td>
+        <td><code>122</code> (number)
+        </td></tr>
+        <tr>
+        <td><code>"123"</code> (string)
+        </td>
+        <td><code>-</code>
+        </td>
+        <td><code>"abc"</code> (string)
+        </td>
+        <td><code>NaN</code> (number)
+        </td>
+        </tr></tbody>
+      </table>
+    </div>
+    <br><br><br>
+    <div class="newhdng-js">Conclusion:</div>
+    <br><br>
+    <div class="cntnt-js">The use of JavaScript has expanded beyond its web browser roots. JavaScript engines are now embedded in a variety of other software systems, both for 
+      server-side website deployments and non-browser applications. Initial attempts at promoting server-side JavaScript usage were Netscape Enterprise Server and Microsoft's 
+      Internet Information Services, but they were small niches. Server-side usage eventually started to grow in the late 2000s, with the creation of Node.js and other 
+      approaches. Electron, Cordova, React Native, and other application frameworks have been used to create many applications with behavior implemented in JavaScript. Other 
+      non-browser applications include Adobe Acrobat support for scripting PDF documents and GNOME Shell extensions written in JavaScript. JavaScript has recently begun to 
+      appear in some embedded systems, usually by leveraging Node.js.
+      <br><br>
+      So you should definetely check it out and if you want to get its sources, click on the "sources" button on navigation bar.
+    </div>    
+  </body>
+  <br>
+  <br>
+  <br>
+  <hr width="80%">
+  <br>
+  <br>
+</html>

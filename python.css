@@ -1,0 +1,67 @@
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgb(0, 0, 0)),url(bgimg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+ }
+.logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+ }
+ .navbar ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 40px;
+   font-size: large;
+   position: relative;
+ }
+ .navbar ul li a{
+   text-decoration: none;
+   color: rgb(252, 246, 246);
+   text-transform: uppercase;
+ }
+ .navbar ul li::after{
+   content: '';
+   height: 3px;
+   width: 0   ;
+   background: #009688;
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   transition: 0.25s;
+ }
+ .navbar ul li:hover::after{
+   width: 100%;
+ }
+ .hdng{
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 55px;
+  text-align: center;
+ }
+ .newhdng-python{
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 35px;
+ }
+ .cntnt-python{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+ }
+ #pythonlogo{
+  height: 55px;
+ }
